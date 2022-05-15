@@ -1,0 +1,68 @@
+.table__item__img {
+    display:block;
+    margin:auto;
+    max-width:  100%;
+    max-height: 18vh;
+    
+
+    /* align item in the center of the div */
+    /* vertical-align: middle;  */
+    
+    /* hover change background color */
+    
+    
+}
+
+/* hover change background color */
+/* .table__item__img:hover {
+    position: relative;
+    max-height: 40vh;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    transform: scale(1.2);
+    top: 50%;
+    max-width: 200%;
+} */
+
+@media screen and (min-width: 480px) and (max-width: 1800px) {
+
+    .table__item__img:hover {
+    position: relative;
+    max-height: 39vh;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    transform: scale(1.2);
+    top: 50%;
+    max-width: 160%;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .table__item__img:hover {
+    position: relative;
+    max-height: 32vh;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s;
+    transform: scale(1.2);
+    top: 50%;
+    max-width: 150%;
+    
+    
+    }
+}
+
+/* t */
+
+.table__item__wrap {
+    /* align inside content in the center */
+    padding:10px;
+    text-align: center;
+    
+}
+
+.table__item__wrap > div {
+    cursor: pointer;
+}
